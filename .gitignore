@@ -1,0 +1,24 @@
+# MRI data
+Data/
+raw_data/
+raw_data_split/
+
+# Trained models / checkpoints
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
