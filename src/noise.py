@@ -58,8 +58,8 @@ def add_salt_pepper_like(image):
     return I_new
 
 
-def apply_noise(image,NOISE_CONFIG, noise_type, level, seed=None):
-    config = NOISE_CONFIG[level]
+def apply_noise(image,noise_config, noise_type, level, seed=None):
+    config = noise_config[level]
 
     if noise_type == "gaussian":
         return add_gaussian_noise_full(
